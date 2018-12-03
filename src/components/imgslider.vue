@@ -1,9 +1,7 @@
 <template>
   <div>
-    <div class="ititle">
-        천안 12경 바로가기
-    </div>
-  <md-card style="width:650px; height:300px;margin: 0 auto;">
+    <h3>천안 12경 바로가기</h3>
+  <md-card style="width:450px; height:300px;margin: 0 auto;">
     <md-card-media>
       <!-- swiper -->
       <swiper :options="swiperOption" style="height:300px;">
@@ -218,6 +216,12 @@
     display: inline-block;
     vertical-align: top;
     margin-right: 50px;
+  }
+  h3{
+    text-align: center;
+  }
+  .swiper-slide .md-card{
+    width:110%;
   }
   .swiper-slide img{
     margin-top: 45px;

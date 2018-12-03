@@ -70,6 +70,7 @@
     background-color: #000;
   }
   .swiper-slide {
+    
     background-size: cover;
     background-position: center;
     &.slide-1 {

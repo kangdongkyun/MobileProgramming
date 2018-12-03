@@ -218,7 +218,6 @@
       </md-tab>
     </md-tabs>
 </template>
-
 <script>
 import imgv1 from '@/components/imgv1'
     export default {
@@ -242,7 +241,6 @@ import imgv1 from '@/components/imgv1'
 .md-button{
     float: right;
 }
-    
 @media (max-width:799px){
   #desktop{
     display : none;

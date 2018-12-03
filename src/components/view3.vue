@@ -94,7 +94,7 @@
         </div>
       </md-tab>
       <md-tab id="tab-posts" md-label="전경">
-          
+          <imgv3></imgv3>
       </md-tab>
       <md-tab id="tab-favorites" md-label="방문후기">     
         <div id="desktop">
@@ -218,7 +218,11 @@
 </template>
 
 <script>
+import imgv3 from '@/components/imgv3'
     export default {
+          components: {
+            'imgv3':imgv3,
+        },
         data(){
               return {
                 

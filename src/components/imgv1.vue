@@ -1,6 +1,5 @@
 <template>
   <md-card>
-    
     <md-card-media  style="height: 500px">
       <!-- swiper1 -->
       <swiper :options="swiperOptionTop" class="gallery-top" ref="swiperTop">
@@ -29,8 +28,6 @@
     </md-card-media>
   </md-card>
 </template>
-
-
 <script>
   export default {
     data() {
@@ -49,7 +46,7 @@
           slidesPerView: 4,
           touchRatio: 0.2,
           loop: true,
-          loopedSlides: 8, //looped slides should be the same
+          loopedSlides: 8, //looped slides should be the same 
           slideToClickedSlide: true,
         }
       }

@@ -8,7 +8,10 @@
         <md-button class="md-icon-button" @click="toggleMenu" v-if="!menuVisible">
           <md-icon>menu</md-icon>
         </md-button>
-        <span class="md-title" ><router-link to="/" class="mtitle" style="color:black; text-decoration:none;"> 천안 12경 소개 </router-link></span>
+        <span class="md-title" >
+        <router-link to="/" class="mtitle" 
+            style="color:black; text-decoration:none;"> 천안 12경 소개 </router-link>
+        </span>
         
         <md-menu class="align-right" md-size="medium" md-align-trigger>
           <md-button md-menu-trigger><md-icon>more_vert</md-icon></md-button>
@@ -84,17 +87,17 @@
           </md-list-item>
 
           <md-list-item to="/v10">
-            <md-icon>filter_10</md-icon>
+            <md-icon>filter_9_plus</md-icon>
             <span class="md-list-item-text"> 입장 거봉포도마을 </span>
           </md-list-item>
 
           <md-list-item to="/v11">
-            <md-icon>filter_11</md-icon>
+            <md-icon>filter_9_plus</md-icon>
             <span class="md-list-item-text"> 흥타령 축제 </span>
           </md-list-item>
 
           <md-list-item to="/v12">
-            <md-icon>filter_12</md-icon>
+            <md-icon>filter_9_plus</md-icon>
             <span class="md-list-item-text"> 천호지 야경 </span>
           </md-list-item>
         </md-list>

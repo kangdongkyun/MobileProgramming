@@ -87,7 +87,7 @@
         </div>
       </md-tab>
       <md-tab id="tab-posts" md-label="전경">
-          
+          <imgv7></imgv7>
       </md-tab>
       <md-tab id="tab-favorites" md-label="방문후기">     
         <div id="desktop">
@@ -211,7 +211,11 @@
 </template>
 
 <script>
+ import imgv7 from '@/components/imgv7'
     export default {
+          components: {
+            'imgv7':imgv7,
+        },
         data(){
               return {
                 

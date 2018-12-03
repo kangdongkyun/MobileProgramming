@@ -158,14 +158,15 @@
 </script>
 
 <style lang="scss" scoped>
-  .md-progress-bar {
-    // position: absolute;
-    // top: 0;
-    // right: 0;
-    // left: 0;
-  }
+  // .md-progress-bar {
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   left: 0;
+  // }
   #sform{
     margin-left: 400px;
     margin-top: 150px;
+    margin:0 auto;
   }
 </style>

@@ -87,7 +87,7 @@
         </div>
       </md-tab>
       <md-tab id="tab-posts" md-label="전경">
-          
+          <imgv8></imgv8>
       </md-tab>
       <md-tab id="tab-favorites" md-label="방문후기">     
         <div id="desktop">
@@ -211,7 +211,11 @@
 </template>
 
 <script>
+import imgv8 from '@/components/imgv8'
     export default {
+          components: {
+            'imgv8':imgv8,
+        },
         data(){
               return {
                 

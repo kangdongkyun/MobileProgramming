@@ -19,7 +19,7 @@
     <div id="mobile">
       <!-- <poster></poster> -->
       <boarder></boarder>
-      <!-- <imgslider></imgslider> -->
+      <imgslider></imgslider>
     </div>
   </div>
 </template>
@@ -79,6 +79,7 @@ a {
   .poster{
     width:600px;
   }
+  
 }
 @media only screen and (min-width : 800px) and (max-width : 1023px){  
   #desktop{

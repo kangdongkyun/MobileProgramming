@@ -94,7 +94,7 @@
       background-image:url('../assets/img/v4/7.jpg');
     }
     &.slide-8 {
-      background-image:url('../assets/img/v1/8.jpg');
+      background-image:url('../assets/img/v4/8.jpg');
     }
     
     

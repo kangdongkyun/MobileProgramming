@@ -75,7 +75,7 @@
         </div>
       </md-tab>
       <md-tab id="tab-posts" md-label="전경">
-          
+          <imgv4></imgv4>
       </md-tab>
       <md-tab id="tab-favorites" md-label="방문후기">     
         <div id="desktop">
@@ -199,7 +199,11 @@
 </template>
 
 <script>
+import imgv4 from '@/components/imgv4'
     export default {
+          components: {
+            'imgv4':imgv4,
+        },
         data(){
               return {
                 
