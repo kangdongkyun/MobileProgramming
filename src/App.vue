@@ -10,7 +10,7 @@
         </md-button>
         <span class="md-title" >
         <router-link to="/" class="mtitle" 
-            style="color:black; text-decoration:none;"> 천안 12경 소개 </router-link>
+            style="color:black; text-decoration:none; font-family: 'Gamja Flower', cursive; font-size:1.5em;"> 천안, 여기 어때? </router-link>
         </span>
         
         <md-menu class="align-right" md-size="medium" md-align-trigger>
