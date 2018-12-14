@@ -31,5 +31,7 @@ npm run build --report
   <li>...</li>
 </ul>
 
+> 백엔드 구현 예정중
+
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 # cheonanview.github.io
